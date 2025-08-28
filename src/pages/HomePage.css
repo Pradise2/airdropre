@@ -1,0 +1,49 @@
+/* src/pages/HomePage.css */
+
+.dashboardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.createButton {
+  background-color: #2b6cb0;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.createButton:hover {
+  background-color: #2c5282;
+}
+
+.raindropsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.raindropsTable th,
+.raindropsTable td {
+  border: 1px solid #e2e8f0;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.raindropsTable th {
+  background-color: #f7fafc;
+}
+
+.raindropsTable td a {
+  color: #2b6cb0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.raindropsTable td a:hover {
+  text-decoration: underline;
+}

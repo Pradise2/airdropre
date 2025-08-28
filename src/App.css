@@ -1,0 +1,12 @@
+/* src/App.css */
+
+.appContainer {
+  display: flex;
+    flex-direction: column;
+      min-height: 100vh;
+      }
+
+      .mainContent {
+        padding: 2rem;
+          flex-grow: 1; /* Ensures the main content area fills available space */
+          }
